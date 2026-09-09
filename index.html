@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biblioteca dos Nerds</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav><strong>🎮 Biblioteca dos Nerds</strong><a href="#jogos">Jogos</a></nav>
+<div class="hero"><small>SEU CANTINHO GAMER</small><h1>Biblioteca dos <i>Nerds</i></h1>
+<p>Jogos recomendados, organizados em uma biblioteca simples e bonita.</p><a class="btn" href="#jogos">Explorar jogos ↓</a></div>
+</header>
+<main id="jogos">
+<div class="title"><div><small>RECOMENDADOS</small><h2>Jogos</h2></div><span>1 jogo</span></div>
+<div class="grid">
+<article class="card" onclick="openModal()">
+<div class="thumb"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1766740/header.jpg" alt="Choo-Choo Charles"><b>TERROR</b></div>
+<div class="body"><h3>Choo-Choo Charles</h3><p>Terror • Sobrevivência • Mundo aberto</p><button>Ver detalhes →</button></div>
+</article>
+</div>
+</main>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()">
+<div class="box"><button class="x" onclick="closeModal()">×</button>
+<img class="banner" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1766740/header.jpg" alt="Choo-Choo Charles">
+<section>
+<small>AÇÃO • AVENTURA • TERROR</small><h2>Choo-Choo Charles</h2>
+<p>Explore uma ilha em um trem antigo, melhore sua locomotiva, ajude os moradores e enfrente Charles, o trem-aranha sanguinário.</p>
+<div class="facts"><div><b>Gêneros</b>Ação, aventura, terror, sobrevivência</div><div><b>Estilo</b>Mundo aberto • Primeira pessoa</div><div><b>Jogadores</b>1 jogador</div><div><b>Desenvolvedor</b>Two Star Games</div></div>
+<h3>Links para encontrar o jogo</h3>
+<div class="links">
+<a class="btn" href="https://apkvision.org/games/adventure/choo-choo-charles-133475/" target="_blank" rel="noopener">APKVision ↗</a>
+<a class="btn alt" href="https://apkpure.net/" target="_blank" rel="noopener">APKAward ↗</a>
+</div>
+<p class="note">O link do APKVision foi verificado como página do Choo-Choo Charles. O botão APKAward fica como espaço para adicionar a página correta quando você tiver o link dela.</p>
+</section></div></div>
+<footer>🎮 Biblioteca dos Nerds</footer>
+<script src="script.js"></script>
+</body></html>
