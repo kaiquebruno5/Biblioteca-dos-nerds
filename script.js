@@ -1,1 +1,0 @@
-function openModal(){document.getElementById("modal").classList.add("open");document.body.style.overflow="hidden"}function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow=""}document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
